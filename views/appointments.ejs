@@ -1,0 +1,114 @@
+<!--Name: Mackenzie Lubben-Ortiz
+    Assignment: Appointment Page Development
+    Date: 11/11/2023
+    -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head class="header">
+        <title>Pets-R-Us</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="/pets-r-us/public/styles/index.css">
+    
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&family=Mrs+Saint+Delafield&family=Oswald:wght@300;700&family=Quattrocento:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+    
+      <body>
+    
+        
+        <!-- First Section -->
+        <div class="header-banner">
+            <img src="/pets-r-us/public/images/austin-distel-gUIJ0YszPig-unsplash.jpg">
+    
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">Pets-R-Us</div>
+    
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links"></ul>
+    
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="/pets-r-us/views/index.ejs">HOME</a></li>
+                <li><a href="/pets-r-us/views/training.ejs">TRAINING</a></li>
+                <li><a href="/pets-r-us/views/grooming.ejs">GROOMING</a></li>
+                <li><a href="/pets-r-us/views/boarding.ejs">BOARDING</a></li>
+                <li><a href="/pets-r-us/views/booking.ejs">BOOKING</a></li>
+                <li><a href="/pets-r-us/views/appointments.ejs">MY APPOINTMENTS</a></li>
+            </div>
+      
+         </div>
+        </nav>
+    </div>
+  
+    
+      <div class="container" id="bookapt">
+        <h3>Book your appointment</h3>
+        <form action="action_page.php">
+    
+          <label for="customerid">CustomerId</label>
+          <input type="text" id="customerId" name="firstname" placeholder="">
+          <br>
+          <br>
+          <label for="firstname">First Name</label>
+          <input type="text" id="fname" name="fname" placeholder="">
+          <br>
+          <br>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname" placeholder="">
+          <br>
+          <br>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="">
+          <br>
+          <br>
+          <label for="service">Service</label>
+          <select name="services" id="services">
+            <option value="grooming">Grooming</option>
+            <option value="training">Training</option>
+            <option value="boarding">Boarding</option>
+          </select>
+    
+          <input type="submit" value="Submit">
+    
+        </form>
+      </div>
+    
+      <style>
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: #deb79f;
+        color: white;
+        position: flex;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;
+    
+    }
+    
+    
+      </style>
+      <br>
+      <br>
+    
+    
+    <!--FOOTER-->
+    
+      <footer class="footer">
+        <p>110 Crabapple Dr. Chicago, IL</p>
+        <p>Photo courtesy of Unsplash</p>
+    </footer>
+    
+      </body>
+    
+    </html>
+    
