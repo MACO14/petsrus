@@ -1,0 +1,150 @@
+<!--Name: Mackenzie Lubben-Ortiz
+    Assignment: Landing Page Development
+    Date: 11/11/2023
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head class="header">
+    <title>Pets-R-Us</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="/pets-r-us/public/styles/index.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&family=Mrs+Saint+Delafield&family=Oswald:wght@300;700&family=Quattrocento:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- First Section -->
+    <div class="header-banner">
+        <img src="/pets-r-us/public/images/camylla-battani-AoqgGAqrLpU-unsplash.jpg">
+
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">Pets-R-Us</div>
+
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links"></ul>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+            <li><a href="/pets-r-us/views/index.ejs">HOME</a></li>
+            <li><a href="/pets-r-us/views/training.ejs">TRAINING</a></li>
+            <li><a href="/pets-r-us/views/grooming.ejs">GROOMING</a></li>
+            <li><a href="/pets-r-us/views/boarding.ejs">BOARDING</a></li>
+            <li><a href="/pets-r-us/views/booking.ejs">BOOKING</a></li>
+            <li><a href="/pets-r-us/views/appointments.ejs">MY APPOINTMENTS</a></li>
+        </div>
+  
+     </div>
+    </nav>
+</div>
+
+<!--ABOUT US SECTION-->
+<h3>Who We Are</h3>
+    
+
+<p class="whoweare" style="border-width:3px; border-style:solid; border-color:darkgoldenrod">
+    We love meeting the needs of families through exceptional animal care, distributing quality products and providing amazing customer service. We understand how important your fur babies are to you so we strive to make each customer feel supported, equipped and confident towards all decisions made regarding their pets. With that in mind, we have expanded our business to online booking for grooming appointments to further ease and accommodate our customer’s and their busy schedules. In addition, we offer our full pet inventory stock online including pet food, gear, accessories, and more. 
+<br>
+<br>
+All of these features have you as our customer in mind. Our passion is to equip guests with animals to provide the very best care for their pet. From the ease of online shopping, booking, scheduling, etc. our goal is to make our customer experience that much more simple. We understand that our customers have busy lives and endless needs for their pets. That’s where we come in. We’re here to support our customers each step of the way. Whether a pet has grooming, feeding or training needs, we provide the necessary services to our customers to turn that need into action. 
+<br>
+<br>
+We invite you to check out our website and see what all we have to offer. We are incredibly thankful for people like you that come alongside us so that we can help so many fur families thrive.  
+</p>
+
+  <br>
+
+
+<!--DOG OF THE WEEK-->
+  <h3>Dog of the Week</h3>
+  <h2 class="bruno">Meet Bruno</h2>
+  <img src="/pets-r-us/public/images/wade-austin-ellis-FtuJIuBbUhI-unsplash.jpg">
+  <br>
+  <br>
+  <p class="dogoftheweek">Bruno is one of our favorite pups here at Pets-R-Us. He loves laying on his favorite soft pillow and snuggling with his owner, Maddie. Bruno has never met a stranger and genuinely loves every human he comes in contact with. His favorite snack is milk bones and he loves a good tummy rub as well. He is three years old and graduated his training here at Pets-R-Us! He is full of love, energetic and very easy going. His owner adopted him when he was a puppy after he was found on the streets of Chicago. His favorite activities include: snuggling with his owner, eating treats, chasing and catching frisbees, taking a bath, and chasing the squirrels in his yard. </p>
+
+  <div class="container">
+    <div class="image">
+      <img src="/pets-r-us/public/images/tamas-pap-Qdt8f7Tcle0-unsplash.jpg">
+      </div>
+      <div class="text">
+        <h1>Natalie + fur baby Lila</h1>
+        <p>"Lila and I have been loyal customers to Pets-R-Us for several years now. I was first introduced to them after adopting Lila when she was a puppy and I was in need of pet supplies. I was so impressed with their customer service and quality and affordability of products that we became lifelong customers. Since then, Lila has been through their amazing training and she gets groomed once a month. All of the services that Pets-R-Us has to offer are amazing. If you love your pet, utilize Pets-R-Us. You won't regret it!"</p>
+      </div>
+    </div>
+  </div>
+
+<!--LOCATION/HOURS-->
+  <h3>Location Hours</h3>
+  <div class="Hours">
+      <p>Mon 8:00 AM - 6:00 PM</p>
+      <p>Tues 8:00 AM - 7:00 PM</p>
+      <p> Wed 7:00 AM - 7:00 PM</p>
+      <p> Thurs 8:00 AM - 6:00 PM</p>
+      <p> Fri 8:00 AM - 5:00 PM</p>
+      <p> Mon 8:00 AM - 6:00 PM</p>
+      <p>Sun CLOSED</p>
+  </div>
+
+  <div class="container" id="form">
+    <h3>Contact Us!</h3>
+    <form action="action_page.php">
+
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name...">
+      <br>
+      <br>
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+      <br>
+      <br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" placeholder="Your email...">
+      <br>
+      <br>
+      <label for="msg">Subject:</label>
+      <textarea id="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
+  <style>
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #deb79f;
+    color: white;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+
+}
+
+
+  </style>
+  <br>
+  <br>
+
+
+<!--FOOTER-->
+
+  <footer class="footer">
+    <p>110 Crabapple Dr. Chicago, IL</p>
+    <p>Photo courtesy of Unsplash</p>
+</footer>
+
+  </body>
+
+</html>
