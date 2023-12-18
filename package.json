@@ -1,0 +1,28 @@
+{
+  "name": "pets-r-us",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pets-r-us/views/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MACO14/pets-r-us.git"
+  },
+  "author": "Mackenzie Lubben-Ortiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MACO14/pets-r-us/issues"
+  },
+  "homepage": "https://github.com/MACO14/pets-r-us#readme",
+  "dependencies": {
+    "mongoose": "^8.0.2",
+    "express": "^4.16.4"
+},
+    "devDependencies": {
+      "dotenv": "^8.0.0",
+      "nodemon": "^1.19.0"
+    }
+}
